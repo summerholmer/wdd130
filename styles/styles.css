@@ -18,7 +18,7 @@ nav a {
 
 h1 {color: steelblue;
     border-bottom: 2px solid steelblue;}
-img {width: 150px; height: auto; border: 1px solid steelblue; padding: 2px; boxshadow: 0 0 30px gray;}
+img {width: 150px; height: auto; border: 1px solid steelblue; padding: 2px; box-shadow: 0 0 30px gray;}
 p {padding: 10px;}
 main {max-width: 840px;}
 
@@ -53,10 +53,9 @@ box-sizing: border-box;
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba (0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #ddd;
-    column-gap: #000;
 }
 
 aside h2 {

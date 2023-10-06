@@ -25,13 +25,14 @@ h1, h2 {
 }
 h1 {
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 400px;
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: var(--accent1-color);
+    color: white;
+    width: 500px;
 }
 
 a {text-decoration: none;}
@@ -44,14 +45,24 @@ a {text-decoration: none;}
 
 article {
     position: absolute;
-    top: 265px;
-    left: 650px;
+    top: 400px;
+    left: 200px;
     display: flex;
     align-items: center;
-}S
+    background-color: rgba(30,81,123,.5);
+    
+}
 
 #articleImg {
     float: right;
     width: 300px;
     height: auto;
+}
+
+.imageContainer img {
+    width: 500px;
+    padding: 10px;
+}
+a img{
+    width: 35px;
 }

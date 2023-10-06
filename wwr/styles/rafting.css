@@ -60,9 +60,67 @@ article {
 }
 
 .imageContainer img {
-    width: 500px;
-    padding: 10px;
+    width: 150px;
+    height: 150px;
 }
 a img{
     width: 35px;
+}
+
+.header {
+    display: grid;
+	grid-template-columns: 300px 1fr;
+	align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    width: 50px;
+    padding: 10px;
+}
+
+.history, .adventureimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history img {
+    width: 300px;
+    height: auto;
+}
+
+.history p {
+    color: black;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+article, section, footer {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+
 }

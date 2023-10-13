@@ -20,13 +20,7 @@
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
-  
-}
-h1 {
-    position: absolute;
-    top: 250px;
-    left: 400px;
+    color: white;
 }
 
 p {
@@ -121,6 +115,58 @@ figcaption {
 
 footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+}
 
+.form {
+    display: flex;
+    width: 66%;
+}
+
+form, .contactus {
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    padding: 10px;
+}
+
+figure img {
+    width: 150px;
+    height: 250px;
+}
+
+.fixedWidth {
+    width:100px;
+    display: inline-block;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer > p {
+color: black;
+padding: 0 10px;
 }

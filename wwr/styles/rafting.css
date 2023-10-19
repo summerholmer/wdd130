@@ -20,7 +20,7 @@
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: white;
+    color: black;
 }
 
 p {
@@ -126,7 +126,7 @@ footer {
 }
 
 form, .contactus {
-    background-color: lightblue;
+    background-color: blue;
     border: 1px solid darkblue;
     padding: 10px;
 }
@@ -143,7 +143,7 @@ figure img {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -152,7 +152,7 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: darkblue;
 }
 
 .button {
@@ -174,3 +174,8 @@ padding: 0 10px;
 .sociallinks{
     width:300px;
 }
+
+label, legend {
+    color: white
+}
+
